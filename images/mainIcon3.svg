@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="121.57" height="109.16" version="1.2" viewBox="0 0 121.57 109.16" xmlns="http://www.w3.org/2000/svg">
+ <title>icon-home-1</title>
+ <style>tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #4c4083;stroke-width: 2 } 
+		.shp1 { fill: #e9eaeb;stroke: #4c4083;stroke-width: 2 } 
+		.shp2 { fill: #f0f220;stroke: #4c4083;stroke-width: 2 } 
+		.shp3 { fill: #ffffff;stroke: #4c4083;stroke-width: 2 } 
+		.shp4 { fill: none;stroke: #bcc0c4;stroke-width: 2 }</style>
+ <g transform="translate(-589.5,-599.84)">
+  <path id="Rectangle-path" class="shp0" d="m621.79 633.92h49.39v74.08h-49.39z"/>
+  <path class="shp1" d="m627.49 624.42h37.99v9.5h-37.99z"/>
+  <path class="shp1" d="m642.69 692.8h11.39v15.2h-11.39z"/>
+  <path id="Shape" class="shp0" d="m631.29 660.51v-9.49h9.5v9.49"/>
+  <path class="shp0" d="m631.29 675.71v-9.5h9.5v9.5"/>
+  <path class="shp0" d="m602.8 660.51h18.99v47.49h-18.99z"/>
+  <path class="shp1" d="m608.49 651.02h13.3v9.49h-13.3z"/>
+  <path class="shp2" d="m671.32 647.22c-11.47 0-20.76 9.29-20.76 20.75 0 17.91 17.7 20.34 19.19 38.55 0.06 0.83 0.73 1.48 1.57 1.48 0.83 0 1.5-0.65 1.56-1.48 1.49-18.21 19.19-20.64 19.19-38.55 0-11.46-9.29-20.75-20.75-20.75z"/>
+  <path id="Oval" class="shp3" d="m671.18 675.71c-4.2 0-7.6-3.4-7.6-7.6s3.4-7.6 7.6-7.6 7.6 3.4 7.6 7.6-3.4 7.6-7.6 7.6z"/>
+  <path class="shp0" d="m597.1 708h94.97"/>
+  <path class="shp4" d="m657.88 611.13h-13.11c-0.97-1.9-3.26-3.86-5.92-3.86-0.85 0-1.65 0.2-2.39 0.5-1.49-3.96-5.3-6.93-9.78-6.93-5.76 0-10.43 6.49-10.44 10.29h-15.34"/>
+  <path class="shp4" d="m610.39 626.32h-13.29"/>
+  <path class="shp4" d="m711.07 620.62h-5.65c-1.32-3.79-4.04-4.74-7.31-4.35-1.43-2.45-4.05-3.96-7.09-3.96-4.52 0-8.19 2.62-8.23 8.31h-7.82"/>
+  <path class="shp4" d="m614.19 626.32h3.8"/>
+  <path class="shp4" d="m661.68 611.13h3.8"/>
+  <path class="shp4" d="m669.28 611.13h3.8"/>
+  <path class="shp0" d="m593.3 708h-3.8"/>
+  <path class="shp0" d="m695.87 708h7.6"/>
+  <path class="shp0" d="m707.27 708h3.8"/>
+ </g>
+</svg>
