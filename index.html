@@ -23,12 +23,14 @@
     <header class="headerBar">
       <div class="container">
         <div class="headerMenuBox">
-          <div class="headerLogo">
+          <div class="headerLogoBar">
             <i class="fa-solid fa-bars"></i>
           </div>
 
           <div class="mainMenuBox">
             <div class="menulist">
+
+              <!-- top list and additional forms  -->
               <div class="topMainMenu">
                 <ul>
                   <li><a href="#">Ўқитувчи иш ўринлари</a></li>
@@ -41,10 +43,14 @@
                 <div class="additionalFunctions">
                   <div class="seeDropdown"><img src=".//images/eyeIcon.svg" alt=""></div>
                   <span class="additionalFunctions-line"></span>
-                  <div class="searchBtn"><img src="./images/searchIcon.svg" alt=""></div>
+                  <div id="searchBtnId" class="searchBtn" ><img src="./images/searchIcon.svg" alt=""></div>
                 </div>
               </div>
+
+              <!--HR white line  -->
               <hr class="menuLine"></hr>
+              
+              <!-- bottm menu servisec -->
               <div class="bottomMainMenu">
                 <ul>
                   <li><a href="#">Вазирлик</a></li>
@@ -58,21 +64,21 @@
             </div>
 
             <!-- searchForms -->
-            <form action="#">
+            <form action="#" id="formId">
               <div class="input-group">
-                <input id="mainSearch" type="text">
-                <i class="input-group-prepend fa-solid fa-x"></i>
+                <input id="mainSearch" type="text" placeholder="Излаш" >
+                <i id="idFormCloseBtn" class="input-group-prepend fa-solid fa-x"></i>
               </div>
             </form>
 
+            <!-- languages selector -->
             <div class="dropdown langBar">
               <div class="dropdown-btn">Ўзб</div>
               <div class="dropdown-content">
-                <a href="#" class="active" >O‘zbekcha</a>
-                <a href="#" class="" >Ўзбекча</a>
+                <a href="#" class="" >O‘zbekcha</a>
+                <a href="#" class="active" >Ўзбекча</a>
                 <a href="#" class="" >Русский</a>
               </div>
-
             </div>
           </div>
         </div>
