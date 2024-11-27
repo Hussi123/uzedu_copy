@@ -13,7 +13,7 @@ idFormCloseBtn.addEventListener("click", () => {
 // languades choose Uzb/Ўзб/Ru div
 const langBtn = document.querySelector('.dropdown-btn')
 const content = document.querySelector('.dropdown-content');
-
+// content.style.display === 'none'
 // languages dropdown hide and show funcktion
 langBtn.addEventListener('click', function () {
   content.style.display = content.style.display === 'block' ? 'none' : 'block';
@@ -25,15 +25,18 @@ content.addEventListener("click", (e) => {
   content.querySelectorAll("a").forEach(e => e.classList.remove("active"))
 
   if (e.target.tagName === "A") {
-    if (e.target.innerText == "O‘zbekcha"){
-      langBtn.innerText="Uzb"
+    if (e.target.innerText == "O‘zbekcha") {
+      langBtn.innerText = "Uzb"
       e.target.classList.add("active")
-    }else if (e.target.innerText == "Ўзбекча"){
-      langBtn.innerText="Ўзб"
+      content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    } else if (e.target.innerText == "Ўзбекча") {
+      langBtn.innerText = "Ўзб"
       e.target.classList.add("active")
-    }else if(e.target.innerText == "Русский"){
-      langBtn.innerText="Pu"
+      content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    } else if (e.target.innerText == "Русский") {
+      langBtn.innerText = "Pu"
       e.target.classList.add("active")
+      content.style.display = content.style.display === 'block' ? 'none' : 'block';
     }
   }
 })

@@ -74,17 +74,14 @@ ul li{
   z-index: 1;
 }
 
-
-.container{
-  max-width: 1600px;
-  margin-left:50px;
-  margin-right: 50px;
-}
-
-
-
 .headerBar .container{
-  /* width: 100%; */
+  width: 100%;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 50px;
+}
+.bannerBox .container{
 }
 
 .headerMenuBox{
@@ -146,7 +143,7 @@ ul li{
 }
 
 .headerBar .mainMenuBox {
-  width: 90%;
+  /* width: 100%; */
 }
 
 .headerBar .headerLogoBar{
@@ -188,9 +185,53 @@ ul li{
   align-items: flex-start;
 }
 
-.headerBar .bottomMainMenu ul li{
+.headerBar .bottomMainMenuLi{
   padding: 20px 30px;
-  font-size: 24px;
+  font-size: 18px;
+  position: relative;
+  /* background: red; */
+}
+.headerBar .bottomMainMenuLi:hover{
+  color: yellow;
+  cursor: pointer;
+}
+
+.headerBar .bottomMainMenuLiDropdown{
+  position: absolute;
+  background:#463882;
+  color: #fff;
+  padding: 0 15px;
+  width: 100%;
+  border: 1px solid yellow;
+  opacity: 0;
+  pointer-events: none;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  transition: all ease 500ms;
+  /* align-items: center; */
+}
+.headerBar .bottomMainMenuLi:hover .bottomMainMenuLiDropdown{
+  opacity: 1;
+  pointer-events: all;
+}
+
+.headerBar li:nth-child(1) .bottomMainMenuLiDropdown,
+.headerBar li:nth-child(2) .bottomMainMenuLiDropdown,
+.headerBar li:nth-child(3) .bottomMainMenuLiDropdown
+{ 
+  width: 130%;
+}
+
+.headerBar .bottomMainMenuLiDropdown a{
+  padding: 10px 0;
+  border-bottom: 2px solid yellow ;
+  font-size: 12px;
+}
+.headerBar .bottomMainMenuLiDropdown a:last-child{
+  border-bottom: none;
 }
 
 
@@ -207,6 +248,7 @@ ul li{
   padding: 5px 0px;
   border-radius: 3px;
   background: #fff;
+  display: none;
 }
 .langBar .dropdown-content a{
   display:inline-block;
