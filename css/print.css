@@ -1,0 +1,15 @@
+@media print {
+    .footer,
+    .globalClass_5c43,
+    #jivo-iframe-container,
+    .tooltip,
+    .langBar,
+    .bigMenuBtn,
+    .footerLogo,
+    .shareBox,
+    .withImage .imageHeader .imageBox,
+    .socialNetworksBar,
+    jdiv[class^="globalClass_"] {
+        display: none;
+    }
+}

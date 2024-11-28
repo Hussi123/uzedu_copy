@@ -43,3 +43,57 @@ content.addEventListener("click", (e) => {
 
 
 
+
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:1500,
+    loop: true,                // Karuselni aylantirishni davom ettiradi
+    margin: 10,                // Elementlar orasidagi masofa
+    nav: true,                 // "Oldinga" va "Orqaga" tugmalari
+    responsive: {              // Har xil ekran o'lchamlariga moslashuvchanlik
+      0: {
+        items: 1               // Kichik ekranlarda 1 ta element
+      },
+      600: {
+        items: 2               // O'rtacha ekranlarda 2 ta element
+      },
+      1000: {
+        items: 3               // Katta ekranlarda 3 ta element
+      }
+    }
+  });
+});
+
+
+
+$('.miniBanners').owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: false,
+  items: 1,
+  autoplay: true
+})
+
+
+$('.usefulLinks').owlCarousel({
+  loop: true,
+  items: 6,
+  dots: false,
+  nav: true,
+  autoplay: true,
+  navText: ['<i class="fas fa-arrow-left"></i>', '<i class="fas fa-arrow-right"></i>'],
+  responsive: {
+    0: { items: 1 },
+    576: { items: 2 },
+    768: { items: 3 },
+    992: { items: 5 },
+    1600: { items: 6 }
+  }
+});
+
+
+
+
+

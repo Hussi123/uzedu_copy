@@ -1,0 +1,16 @@
+.jqvmap-label {
+    position: absolute;
+    border-radius: 3px;
+    background: #4c4083;
+    padding: 5px;
+    border: 1px solid #f0f220;
+    z-index: 50;
+    max-width: 230px;
+    color: #f0f220;
+    font-size: 16px;
+    transform: translate(50%, -20px);
+}
+
+.jqvmap-region {
+    cursor: pointer;
+}

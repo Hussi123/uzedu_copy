@@ -1,0 +1,36 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1199px){
+.bannerContent .statDataInfo {
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+.bannerContent .statDataInfo:before,
+.bannerContent .statDataInfo:after {
+  display: none;
+}
+
+.bannerContent .statDataInfo .owl-next {
+  right: 0;
+}
+}

@@ -1,0 +1,817 @@
+@media (min-width: 1900px) {
+    .headerBar .container {
+        max-width: 1850px;
+    }
+
+    .container {
+        max-width: 1640px;
+    }
+
+}
+
+@media (max-width: 1900px) and (min-width: 1600px) {
+    .container {
+        max-width: 100%;
+    }
+    .miniBanners .item .miniTextBox h3 {
+        margin-left: 2rem;
+        margin-right: 4rem;
+        }
+  
+}
+
+@media (max-width: 1600px) {
+    .menu {
+        font-size: 14px;
+    }
+
+    .menu > li > a {
+        padding: 20px 15px;
+    }
+
+    .menusList .topMainMenu > a,
+    .menusList .topMainMenu > ul li a {
+        font-size: 9px;
+        padding: 20px 10px;
+    }
+
+    .bigLogoBox .topDesignLine:before, .bigLogoBox .topDesignLine:after {
+        top: -123px;
+    }
+
+    .imageCardBoxes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footerLogo {
+        display: none;
+    }
+
+    .afterMainHeaderPanel {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .animatedBigShapeBox .contentBox {
+        left: 63%;
+    }
+
+    .mapArea .descriptionBox {
+        display: none;
+    }
+
+    .mainQuoteBox {
+        padding: 0;
+    }
+
+    .leadersList {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .navigationTabs {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .startDescriptionBox,
+    .downloadButtons {
+        padding: 0;
+    }
+
+    .startDescriptionBox img {
+        height: 250px;
+    }
+
+    .galleryFolders {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .galleryFolders .item:nth-child(4n + 2),
+    .galleryFolders .item:nth-child(4n + 3) {
+        grid-column: auto /span 2;
+    }
+
+    .galleryFolders .item:nth-child(9n + 2) .imageBox,
+    .galleryFolders .item:nth-child(9n + 6) .imageBox,
+    .galleryFolders .item:nth-child(9n + 7) .imageBox {
+        height: 280px;
+    }
+
+    .imageHeader {
+        padding: 50px 0 10px 0;
+    }
+
+    .stepsLikeHeader a {
+        padding: 20px 28px 20px 50px;
+        font-size: 12px;
+    }
+
+    .ourAim h1 {
+        font-size: 32px;
+    }
+
+    .pageTitle,
+    .headerArea .titleBox h1,
+    .bigLogoArea .logoTextBox h1,
+    .receptionDays > div .nameBox h1,
+    .mainLeader .details h1 {
+        font-size: 28px;
+    }
+
+    .navigationTabs,
+    .imageCardBoxes a h1,
+    .mainServicesList > a h1 {
+        font-size: 18px;
+    }
+
+    .bigLogoArea .logoTextBox .quote,
+    .contactsBox .addressBox > div > div span, .contactsBox .addressBox > div > div a {
+        font-size: 16px;
+    }
+
+    .mainServicesList > a,
+    .breadcrumb,
+    .breadcrumb a,
+    .leadersList a span,
+    .menuContentInner .topMainMenu ul li a,
+    .listMenu > ul a {
+        font-size: 14px;
+    }
+
+    .mainServicesList > a {
+        width: 330px;
+    }
+
+    .mainServicesList > a button {
+        font-size: 10px;
+    }
+
+    .footer .simpleBlock {
+        padding-left: 0;
+    }
+
+    .topMainMenu .additionalFunctions > * {
+        padding: 10px 5px;
+    }
+
+    .topMainMenu .additionalFunctions img {
+        height: 20px;
+    }
+
+    .mainLogo {
+        left: 82px;
+    }
+
+    .oldSiteBtn {
+        left: 130px;
+        font-size: 10px !important;
+    }
+
+    .bigLogoBox .topDesignLine::before {
+        display: none;
+    }
+}
+
+@media (max-width: 1600px) and (min-width: 1199px) {
+    .miniServicesList a:nth-child(4) {
+        display: none;
+    }
+
+    .miniServicesList {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1360px) {
+    .pullBox > i {
+        display: none;
+    }
+    .miniBanners .item .miniTextBox h3 {
+        margin-left: 2rem;
+        margin-right: 4rem;
+        }
+  
+}
+
+@media (max-width: 1300px) {
+    .mainQuoteBox {
+        flex-direction: column;
+    }
+
+    .mainQuoteBox img {
+        margin-bottom: 30px;
+    }
+
+    .ourAim .container:after {
+        opacity: 0.01;
+        width: 100%;
+        left: 0;
+    }
+
+    .ourAim .container {
+        padding: 0 20px;
+    }
+
+    .ourStrategy .textArea {
+        padding: 50px;
+    }
+
+    .ourStrategy .textArea:after,
+    .ourStrategy .textArea:before {
+        display: none;
+    }
+
+    .pullBox {
+        flex: 1;
+    }
+
+    .pullBox > i {
+        display: block;
+    }
+
+    .afterMainHeaderPanel {
+        flex-direction: column;
+    }
+
+    .afterMainHeaderPanel .logoImg {
+        margin: 0;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .menusList,
+    .topDesignLine,
+    .bottomDesignLine {
+        display: none;
+    }
+
+    .headerMenuBox.big {
+        min-height: 100px;
+    }
+
+    .bigLogoArea {
+        padding: 50px 0;
+    }
+
+    .bigLogoArea .logoTextBox {
+        flex: 1;
+    }
+
+    .bigLogoArea .bigLogoBox {
+        padding: 0;
+        margin: 0;
+        border: none;
+        background: none;
+        backdrop-filter: none;
+
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 85px;
+        overflow: hidden;
+    }
+
+    .bigLogoArea .bigLogoBox img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .bigLogoArea .logoTextBox h1 {
+        text-align: center;
+    }
+
+    .bigLogoArea .logoTextBox .quote {
+        text-align: right;
+        display: block;
+    }
+
+    .bannerContent .statDataInfo {
+        padding-left: 0;
+        padding-right: 30px;
+    }
+
+    .bannerContent .statDataInfo:before,
+    .bannerContent .statDataInfo:after {
+        display: none;
+    }
+
+    .bannerContent .statDataInfo .owl-next {
+        right: 0;
+    }
+
+    .bannerBox .bannerContent:before {
+        left: -700px;
+    }
+
+    .afterMainHeaderPanel {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .bannerBox .bannerContent:after {
+        display: none;
+    }
+
+    .mainLogo {
+        left: 50%;
+        transform: translateX(-50%);
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .imageHeader {
+        padding-top: 60px;
+    }
+
+    .animatedBigShapeBox.active:before {
+        left: 500px;
+    }
+
+    .leadersList {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .startDescriptionBox img {
+        width: 200px;
+    }
+
+    .downloadButtons a {
+        font-size: 14px;
+    }
+
+    .navigationTabs {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .contentArea {
+        padding: 0 100px;
+    }
+
+    .contactsBox {
+        flex-direction: column-reverse;
+    }
+
+    .contactsBox > * {
+        width: 100%;
+    }
+
+    .contactsBox iframe {
+        height: 500px;
+    }
+
+    .galleryFolders {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .galleryFolders .item:nth-child(4n + 2),
+    .galleryFolders .item:nth-child(4n + 3) {
+        grid-column: auto;
+    }
+
+    .servicesList,
+    .miniServicesList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projectsList {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projectView {
+        flex-direction: column;
+    }
+
+    .projectView > img {
+        margin: 0 auto 50px auto;
+    }
+
+    .imageListBoxes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .receptionDays > div .nameBox h1 {
+        font-size: 25px;
+    }
+
+    .imageCardBoxes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .oldSiteBtn {
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: -70px;
+    }
+}
+
+@media (max-width: 992px) {
+    .mainServicesList {
+        margin-top: 50px;
+    }
+
+    .mainServicesList > a {
+        width: 43%;
+    }
+
+    .withImage .imageHeader .imageBox {
+        opacity: 0.2;
+    }
+
+    .animatedBigShapeBox:before,
+    .animatedBigShapeBox.active:before {
+        left: 50000px;
+    }
+
+    .animatedBigShapeBox .image {
+        display: none;
+    }
+
+    .animatedBigShapeBox .contentBox {
+        width: 100%;
+        padding: 50px 20px;
+        position: relative;
+    }
+
+    .animatedBigShapeBox.active .contentBox {
+        top: 0;
+    }
+
+    .animatedBigShapeBox {
+        min-height: auto;
+    }
+
+    .mapArea {
+        display: none;
+    }
+
+    .mainFooterAdBox {
+        flex-direction: column;
+    }
+
+    .mainFooterAdBox a {
+        width: 100%;
+    }
+
+    .footer .simpleBlock:last-child,
+    .footer .simpleBlock ul:after {
+        display: none;
+    }
+
+    .leadersList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .startDescriptionBox {
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+    }
+
+    .downloadButtons,
+    .grid3x {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .documentsList a span {
+        display: none;
+    }
+
+    .documentsList a h1 {
+        border: none;
+    }
+
+    .documentsList a p {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .documentsList a {
+        flex-direction: column;
+    }
+
+    .documentsList a > * {
+        padding: 0;
+    }
+
+    .headerArea {
+        flex-direction: column-reverse;
+        margin-bottom: 20px;
+    }
+
+    .headerArea .titleBox {
+        margin-top: 30px;
+    }
+
+    .headerArea img {
+        width: 100%;
+    }
+
+    .contentArea {
+        padding: 0;
+    }
+
+    .mainQuoteBox {
+        padding: 0 50px;
+    }
+
+    .ourMissionBig .content {
+        width: 100%;
+    }
+
+    .tasksListWithTicks {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ourStrategy .rowedTexts,
+    .imageListBoxes {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .galleryFolders {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .projectImages {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .menuContentInner .topMainMenu ul li a {
+        font-size: 12px;
+    }
+
+    .stepsLikeHeader {
+        flex-direction: column;
+    }
+
+    .customFlex {
+        margin: 0;
+    }
+
+    .customFlex p {
+        display: none;
+    }
+
+    .pullBox {
+        margin-top: 50px;
+    }
+
+    .receptionDays > div {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .receptionDays > div .nameBox {
+        margin: 20px 0;
+    }
+
+    .miniBanners .item img {
+        display: none;
+    }
+
+    .miniBanners .item .miniTextBox h3 {
+        font-size: 15px;
+    }
+
+    .miniBanners .item .miniTextBox h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainServicesList > a {
+        width: 100%;
+    }
+
+    .imageCardBoxes {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feedbackArea {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .footer .simpleBlock {
+        display: none;
+    }
+
+    .footer .mainBlock {
+        border: none;
+        width: 100%;
+        padding: 0;
+        margin: 0 64px;
+    }
+
+    .mainLeader {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainLeader .details {
+        padding: 35px 0;
+    }
+
+    .documentsList a h1 {
+        font-size: 16px;
+    }
+
+    .navigationTabs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .greenTitle {
+        font-size: 30px;
+    }
+
+    .tasksListWithTicks {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .leaderInfo {
+        flex-direction: column;
+    }
+
+    .leaderInfo .photo {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .serviceTabs ul li {
+        width: 100%;
+    }
+
+    .serviceTabs ul li:after,
+    .listMenu > ul > li:after {
+        display: none;
+    }
+
+    .servicesList,
+    .miniServicesList {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .listMenu,
+    .listMenu > ul,
+    .topMainMenu > ul {
+        flex-direction: column;
+    }
+
+    .listMenu > ul {
+        margin: 10px 0;
+    }
+
+    .listMenu > ul > li > a {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .listMenu > .simple > li > a {
+        margin: 10px 0;
+    }
+
+    .usefulLinks .owl-prev, .usefulLinks .owl-next {
+        width: 32px;
+        height: 32px;
+    }
+
+    .usefulLinks {
+        padding: 0 50px;
+    }
+
+    .serviceTabs ul {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 576px) {
+    .leadersList {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .leadersList a img {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .downloadButtons,
+    .grid3x {
+        padding: 0;
+    }
+
+    .headerArea .titleBox h1 {
+        font-size: 23px;
+    }
+
+    .contactsBox .addressBox {
+        padding: 50px;
+    }
+
+    .projectImages {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .socialNetworksBar {
+        display: none;
+    }
+
+    .textBox {
+        padding: 70px 0;
+    }
+
+    .projectsList .item, .projectsList a.item {
+        flex-direction: column;
+    }
+
+    .leaderInfo .description h1 {
+        font-size: 20px;
+    }
+
+    .miniServicesList a,
+    .servicesList a > div {
+        flex-direction: column;
+        word-break: break-word;
+    }
+
+    .miniServicesList a .icon,
+    .servicesList a .icon {
+        margin: 0;
+    }
+
+    .afterMainHeaderBefore {
+        flex-direction: column;
+    }
+
+    .pullBox {
+        margin-left: 0;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .bannerContent .statDataInfo .item {
+        max-width: 100%;
+    }
+
+    .bannerContent .statDataInfo .item:after {
+        display: none;
+    }
+
+    .mainLeader .details h1,
+    .mainLeader .details span {
+        padding: 0;
+    }
+
+    .logoCreationSteps .steps {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer .mainBlock {
+        margin: 0 20px;
+    }
+
+    .contactsBox .addressBox i {
+        display: none;
+    }
+
+    .contactsBox .addressBox > div > div {
+        margin: 0;
+    }
+
+    .ourAim h1 {
+        font-size: 40px;
+    }
+
+    .greenTitle:after {
+        display: none;
+    }
+
+    .oldSiteBtn {
+        margin-top: -45px;
+        font-size: 9px !important;
+    }
+}
+
+@media (max-height: 870px) and (min-width: 1200px) {
+    .bigLogoArea .bigLogoBox {
+        padding: 70px 50px;
+        margin-left: 50px;
+    }
+
+    .bigLogoBox .topDesignLine::before {
+        height: 150px;
+    }
+
+    .bigLogoBox .bottomDesignLine::before {
+        height: 130px;
+    }
+
+    .bigLogoArea .bigLogoBox img {
+        width: 200px;
+    }
+}
