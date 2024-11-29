@@ -143,10 +143,6 @@ ul li {
   align-items: center;
 }
 
-.headerBar .mainMenuBox {
-  /* width: 100%; */
-}
-
 .headerBar .headerLogoBar {
   font-size: 30px;
 }
@@ -253,6 +249,7 @@ ul li {
   padding: 5px 0px;
   border-radius: 3px;
   background: #fff;
+  color: #151d41;
   display: none;
 }
 
@@ -581,6 +578,10 @@ a.formBtn {
   font-size: 10px;
 }
 
+.miniTextBox+a{
+  color: #151d41!important;
+}
+
 .moreBtn {
   background: #f0f220;
   color: #4c4083;
@@ -602,6 +603,14 @@ a.formBtn {
   color: #f0f220;
 }
 
+.moreBtn.nootbook{
+  color: #151d41!important;
+  /* background: red; */
+}
+
+.moreBtn.nootbook:hover{
+  background: white;
+}
 
 /* uchinchi container elementlari mainContentdagi */
 
@@ -615,7 +624,7 @@ a.formBtn {
 .mainServicesList>a {
   background: #fff;
   width: 360px;
-  color: #000;
+  color: #050505!important;
   font-size: 16px;
   text-align: center;
   border-radius: 30px;
